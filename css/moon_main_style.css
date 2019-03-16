@@ -1,0 +1,138 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background: #F7F3EE;
+}
+
+.wrapper {
+    background: white;
+    height: 100vh;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.logo {
+    background-image: url(/gif/logo0.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    text-indent: -10000px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+header {
+    border-right: 1px solid #C8C1B8;
+    padding-right: 10px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+header nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+header nav {
+    position: relative;
+    float: right;
+    top: 60%;
+    
+}
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav li {
+    list-style: none;
+    
+}
+
+#about {
+    margin-top: 10px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #585C65;
+}
+
+.currentpage a{
+    color: #CDA368;
+    font-weight: 600;
+}
+
+main {
+    grid-column: 2/6;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.item {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    align-self: center;
+    margin-left: 30px;
+    position: relative;
+    top: -10%;
+}
+
+.item img{
+    position: relative;
+    width: 80%;
+   / width: 500px;
+}
+
+.infos {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    align-self: end;
+    width: 260px;
+    margin: 10px;
+}
+
+.blahblah {
+    line-height: 1.5em;
+    margin-bottom: 35px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+h3{
+    font-weight: 600;
+    font-size: .8em;
+    color: #494E5A;
+}
+
+p{
+    font-weight: 400;
+    font-size: .8em;
+    color: #585C65;
+}
+p a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color:#585C65;
+}
+.info {
+    margin-bottom: 10px;
+}
+
+#copyright {
+    margin-top: 25px;
+    font-weight: 200;
+    font-style: italic;
+    font-size:.7em;
+    text-align: end;
+}

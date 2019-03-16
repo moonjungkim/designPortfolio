@@ -1,0 +1,119 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background:black; #F7F3EE;
+}
+
+.wrapper {
+    background: white;
+    height: 100vh;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.logo {
+    background-image: url(/gif/logo0.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    text-indent: -10000px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+header {
+    border-right: 1px solid #C8C1B8;
+    padding-right: 10px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+header nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+header nav {
+    position: relative;
+    float: right;
+    top: 60%;
+    
+}
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav li {
+    list-style: none;
+    
+}
+
+#about {
+    margin-top: 10px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #585C65;
+}
+
+.currentpage a{
+    color: #CDA368;
+    font-weight: 600;
+}
+
+main {
+    grid-column: 2/6;
+    grid-row: 1/4;
+    width: 100%;
+    padding: 10px 0 5px 10px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+main ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+main ul li  {
+    float: left;
+    width: 95%;
+    border-bottom: 1px solid #C8C1B8;
+}
+
+main ul .info {
+    float: left;
+    margin: 0 0 0 5%;
+
+}
+
+main img {
+    width: 50%;
+    float: right;
+}
+
+main iframe {
+    width: 50%;
+    float: right;
+}
+
+h3{
+    font-weight: 600;
+    font-size: .8em;
+    color: #494E5A;
+}
+
+p{
+    font-weight: 400;
+    font-size: .8em;
+    color: #585C65;
+}
