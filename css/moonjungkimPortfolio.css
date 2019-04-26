@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    background: #52809B;
+    color: #201E10;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+  
+h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 0 0 10px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url(/gif/logo0.gif);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 250px;
+    text-indent: -10000px;
+    margin: 30px auto;
+}
+
+.header h3{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.main{
+    margin-top: 50px;
+}
+.work {
+    border: solid 1.5px #F5CFC4;
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.works {
+    float:left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.intro {
+    width: 100%;    
+}
+
+.info {
+    border-top:solid 1px #25488A;
+    float: left;
+    width: 35%;
+}
+
+.content {
+    padding: 0;
+    float: right;
+    width: 60%;
+    margin: 0;
+}
+
+video, img {
+    width: 100%;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#fave_fail video{
+    width: 40%;
+}
+
+#fave_suran .content p{
+    float: right;
+    font-size: .8em;
+    font-weight: 500;
+    opacity: 0.6;
+}
+#fave_suran .content{
+    margin-bottom: 10px;
+}
+
+#fave_ani video {
+    float: left;
+    width: 33.1%;
+    margin: 0 .1%;
+}
+
+#personal_3d img {
+    float: left;
+    width: 50%;
+}
+.header h3 {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: 700;
+}
+h4{
+    margin: 20px 0;
+    font-size: .9em;
+    font-weight: 500;
+}
+p{
+    margin: 10px 0;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+#about .info{
+    width:100%;
+}
+
+strong {
+    font-weight: 500;
+}
+
+a {
+    color: #FFC500;
+    font-weight: 500;
+}
+#about h4{
+    font-size: .8em;
+    font-weight: 700;
+    margin: 0;
+}
+#about p {
+    font-weight:500;
+    margin: 5px 0;
+    font-size: .8em;
+}
+span{
+    float: right;
+    padding: 20px;
+}
