@@ -111,8 +111,9 @@ li {
     float: left;
     width: 50%;
 }
-.header h3 {
-    font-weight: 400;
+
+.intro p{
+    opacity: .5;
 }
 
 h2 {
