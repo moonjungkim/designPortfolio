@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    background: #52809B;
+    color: #201E10;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding: 10px 0 ;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url(/gif/logo0.gif);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 250px;
+    text-indent: -10000px;
+    margin: 30px auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    display: contents;
+}
+
+img {
+    width: 33.1%;
+}
+span {
+    color: #FFC500;
+    font-weight: 500;
+}
+
+a {
+    color: #FFC500;
+    font-weight: 500;
+}
