@@ -74,7 +74,7 @@ h2, h3, h4, p {
     margin: 0;
 }
 
-video, img {
+video, img, iframe{
     width: 100%;
 }
 
@@ -101,7 +101,7 @@ li {
     margin-bottom: 10px;
 }
 
-#fave_ani video {
+#fave_ani video, #fave_ani img {
     float: left;
     width: 33.1%;
     margin: 0 .1%;
